@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imglambo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imglambo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/lambo" />
+
+    <CheckBox
+        android:id="@+id/checkBoxfootball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Football" />
+
+    <CheckBox
+        android:id="@+id/checkBoxrugby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rugby" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonWiFi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+    <Switch
+        android:id="@+id/switchlightmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn On Dark Mode" />
+
+    <RadioGroup
+        android:id="@+id/groupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radiomale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radiofemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/radioOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other" />
+    </RadioGroup>
+</LinearLayout>
